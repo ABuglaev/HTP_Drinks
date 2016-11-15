@@ -1,0 +1,58 @@
+body {
+  margin: auto;
+  background-color: gray;
+}
+
+#main_block {
+  position: absolute;
+  top:    12px;
+  left:   12px;
+  bottom: 12px;
+  right:  12px;
+  border-radius: 10px;
+  background-color: lightblue;
+  margin: auto;
+  padding-top: 50px;
+}
+#main_menu {
+  float: left;
+  list-style: none;
+  width: 30%;
+  margin: auto;
+}
+.button {
+  display: block;
+  background-position: top;
+  height: 150px;
+  width: 400px;
+  border-radius: 28px;
+  cursor: pointer;  
+  margin: 10px;
+}
+.button:hover {
+  background-position: bottom;   
+}
+
+#add {
+  background-image: url(images/add.png);
+}
+#info {
+  background-image: url(images/info.png);
+}
+#list {
+  background-image: url(images/list.png);
+}
+#del{
+  background-image: url(images/del.png);
+}
+
+#info_window {
+  float: right;
+  margin: 10px 50px 0 0; 
+  width: 60%;
+  height: 80%;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  font-size: 2em;
+  padding: 10px;
+}
